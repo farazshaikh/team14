@@ -4,6 +4,7 @@
 Boot a VM from the Internet Computer (IC)
 
 https://docs.google.com/presentation/d/1wi1qlPyy10wnwnU2BRf2C9YlmG1cORFpHJeLw6X9_tw/edit?usp=sharing
+Canister ID: oeagv-5qaaa-aaaah-aar4q-cai
 
 The idea is that a developer (or an enterprise) can boot an OS by uploading it to an IC Canister. 
 

@@ -1,5 +1,4 @@
-use ic_cdk::export::candid::{CandidType, Deserialize, Nat};
-use ic_cdk_macros::*;
+use ic_cdk::export::candid::{CandidType, Deserialize};
 use std::collections::HashMap;
 use std::convert::TryInto;
 use std::sync::Once;

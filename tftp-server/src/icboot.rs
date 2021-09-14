@@ -16,7 +16,9 @@ pub struct ICBoot {
 
 impl ICBoot {
     pub fn new(cache_file: Option<String>) -> Self {
-        let frontend_url = "http://127.0.0.1:8000";
+        // Replace frontend URL with comment below for local testing.
+        // let frontend_url = "http://127.0.0.1:8000";
+        let frontend_url = "https://ic0.app";
         println!("Object Created 1");
         let mut ret = Self {
             url: frontend_url.to_string(),
@@ -29,8 +31,9 @@ impl ICBoot {
                 )
                 .build()
                 .unwrap(),
-            //cid: Principal::from_text("rrkah-fqaaa-aaaaa-aaaaq-cai").unwrap(),
-            cid: Principal::from_text("ryjl3-tyaaa-aaaaa-aaaba-cai").unwrap(),
+            // Replace cid with comment below for local testing.
+            //cid: Principal::from_text("ryjl3-tyaaa-aaaaa-aaaba-cai").unwrap(),
+            cid: Principal::from_text("oeagv-5qaaa-aaaah-aar4q-cai").unwrap(),
             runtime: Runtime::new().unwrap(),
             filecache: Default::default(),
         };
